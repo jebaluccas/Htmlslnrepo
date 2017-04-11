@@ -1,0 +1,379 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--CSS referencess-->
+    <link href="CSS/Home.css" rel="stylesheet" />
+    <link href="CSS/Menu.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/menu.js"></script>
+</head>
+<body>
+    <div class="container-fluid padding-bottom-2-per">
+        <div class="row">
+            <!--<div class="col-xs-12">-->
+            <div class="header">
+                <div class="col-md-4 col-sm-3 col-xs-12">
+                    <div class="Lef-Logo">
+                        <a href="#"><img src="Logos/Lef-Logo.png" class="img-responsive" /></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12 col-sm-4">
+                    <div class="input-group">
+                        <input type="text" class="search-query form-control" placeholder="Search" />
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                        </span>
+                    </div>
+                </div>
+                <div class="right-Logo col-md-2 col-sm-3 col-xs-12 ">
+                    <a href="#"><img src="Logos/right-Logo.gif" class="img-responsive" /></a>
+                </div>
+                <div class="col-md-2 col-sm-2">
+                    <img src="Logos/uk_flag.png" class="roundIcon" /><sup id="sup">UK</sup>
+                </div>
+            </div>
+        </div>
+        <!--</div>-->
+        <div>
+            <nav role="navigation" class="navbar navbar-default">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <div id="menuToggle">
+                        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                </div>
+                <!-- Collection of nav links and other content for toggling -->
+                <div id="myNav">
+                    <nav id="navbarCollapse" class="navbar-collapse collapse">
+                        <div class="mainWrap">
+                            <ul class="nav navbar-nav dropdown" id="menu">
+                                <a href="javascript:void(0)" onclick="closeNav" class="close-button pull-right" aria-hidden="true">X</a>
+                                <li><a href="HomePage.html"><span>HOME & ME</span></a></li>
+                                <li>
+                                    <a href="Menopause_Stages.html">MENOPAUSE & ME</a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="Menopause_Stages.html"><span>Stages & symptoms of menopause</span><span class="glyphicon glyphicon-play pull-right" id="right-triangle"></span></a>
+                                            <ul>
+                                                <li><a href="Early_Menopause4.html">Early Menopause</a></li>
+                                                <li><a href="Pre-menopause.html">Pery Menopause</a></li>
+                                                <li><a href="Menopause.html">Menopause</a></li>
+                                                <li><a href="Post-Menopause.html">Post Menopause</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#"><span>Know your body</span><span class="glyphicon glyphicon-play pull-right" id="right-triangle"></span></a>
+                                            <ul>
+                                                <li><a href="Breast-Cancer.html">BREAST CANCER</a></li>
+                                                <li><a href="Contraception.html">CONTRAC EPTION</a></li>
+                                                <li><a href="Low_Mood.html">LOW MOOD/ANXIETY</a></li>
+                                                <li><a href="Heart_Disease.html">HEART DISEASE & STROKE</a></li>
+                                                <li><a href="Osteoporosis.html">OSTEOPOROSIS</a></li>
+                                                <li><a href="Ovarian_Uterine_Cancer.html">OVARIAN/UTERINE CANCER</a></li>
+                                                <li><a href="Skin.html">SKIN</a></li>
+                                                <li><a href="Sleep_Problems.html">SLEEP PROBLEMS</a></li>
+                                                <li><a href="Urinary_Problems.html">URINARY PROBLEMS</a></li>
+                                                <li><a href="Vaginal_dryness.html">VAGINAL DRYNESS</a></li>
+                                                <li><a href="Venous_thromboembolism.html">VENOUS THROMBOEMBOLISM</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="Through_Menopause.html"><span>Am i going to through the menopause?</span></a></li>
+                                        <li><a href="Science-Made-Scence.html"><span>Science made sense</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">TREATMENT & ME</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="HRT_Explained.html"><span>HRT explained</span></a></li>
+                                        <li><a href="Oral_Harmones.html"><span>Meet the oral hormones</span></a></li>
+                                        <li><a href="Coping_Menopause.html"><span>Coping with the menopause</span></a></li>
+                                        <li><a href="Treatment_Tree.html"><span>Treatment tree</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">SUPPORT & ME</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="Patient_Stories.html"><span>Patient stories</span></a></li>
+                                        <li><a href="Coffee_Catch_Ups.html"><span>Coffee catch ups</span></a></li>
+                                        <li><a href="Disscussing_Symptoms.html"><span>Discussing your symptoms</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#"><span>EXPERTS & ME</span></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="Ask_Experts.html"><span>Ask the expert</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#"><span>RESOURCES & ME</span></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="Useful_links.html"><span>Useful Links </span></a></li>
+                                        <li><a href="Email_a_friend.html"><span>Email a friend</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </nav>
+        </div>
+        <!--End of Menu-->
+        <div class="container">
+            <div class="row body-Style">
+                <div class="col-md-12 margin-bottom-20">
+                    <h2>HRT explained</h2>
+                </div>
+
+                <div class="col-md-6 Unorderd">
+                    <p>
+                        Hormone Replacement therapy (HRT) is the most effective
+                        and commonly prescribed treatment for menopausal
+                        symptoms. As the name suggests, it replaces the hormone
+                        oestrogen that is lost during the menopause.
+                    </p>
+                    <p>
+                        You can take HRT as tablets or through a patch or gel on your
+                        skin. Women considering HRT have lots of choices! There is
+                        not only choice in the type and dose of hormones available,
+                        there is also choice in how these hormones are introduced
+                        to the body — or what doctors call “the route of delivery".
+                    </p>
+                    <p>
+                        There are three main routes - and each will be appropriate
+                        for different women:
+                        <ul>
+                            <li>Via the mouth as a tablet — this is the most common form of HRT</li>
+                            <li>Transdermal' (through the skin) methods are less common but still very popular. They can take the form of an adhesive patch, or a gel</li>
+                            <li> Finally as an implant injected beneath the skin to provide slow release of oestrogen over several months</li>
+                            <li>For vaginal and bladder symptoms, oestrogen can be taken as a small vaginal tablet, cream or vaginal ring inserted within the vagina to provide very "local" relief</li>                           
+                        </ul>
+                    </p>
+                </div>
+                <div class="col-md-6">               
+                    <img src="Images/HRT_Explained.png"class="img-responsive" />
+                </div>
+                <div class="col-md-12 body-Style Unorderd ">
+                    <h4>What does l-IRT do?</h4>
+                    <p>
+                        HRT helps to relieve the symptoms caused by oestrogen deﬁciency — such as hot flushes, night sweats, vaginal dryness and
+                        osteoporosis.
+                    </p>
+                    <h4>What's right for me?</h4>
+                    <p>
+                        Every woman is an individual and the HRT that will best suit you will depend on your individual circumstances, including
+                        your stage in the menopausal process, and whether or not you've had a hysterectomy. Not all HRT treatments are the same;
+                        it is essential that you understand both the short and long-term beneﬁts and safety proﬁles of each to ensure that you
+                        maintain the best possible health and quality of life at every stage of the menopause.
+                    </p>
+                    <p>
+                        Your healthcare professional will discuss the HRT options with you and you both should make a decision based on your
+                        individual needs.
+                    </p>
+                    <h4>What's in HRT?</h4>
+                    <p>
+                        Most forms of HRT combine different amounts of the hormones oestrogen and progesterone (manufactured progesterone is
+                        called progestogen in the UK).
+                    </p>
+                    <h4>Oestrogen alone</h4>
+                    <p>
+                        The core ingredient of all forms of HRT is oestrogen. Oestrogen relieves symptoms such as hot flushes, prevents vaginal
+                        symptoms and maintains bone strength.
+                    </p>
+                    <p>
+                        The best HRT for women without a womb (a total hysterectomy) is oestrogen alone. Oestrogen alone can be taken as a daily
+                        tablet, a weekly or twice weekly patch, a daily gel or an implant. Varying doses of oestrogen are available.
+
+                    </p>
+                    <p>
+                        Lower dose varieties aim to reduce the incidence of side effects while maintaining symptom relief and bone strength. It is
+                        usually recommended that you take the lowest dose of HRT that will effectively relieve your symptoms.
+                    </p>
+                    <h4>Oestrogen & Progestogen</h4>
+                    <p>
+                        If you have a womb you should be offered HRT that contains both oestrogen and progestogen. This is because oestrogen
+                        only HRT can stimulate the lining of the womb (endometrium), leading to excess growth and possibly cancer.
+                    </p>
+                    <p>
+                        Therefore for women who have not had a hysterectomy, a second hormone is also prescribed (progestogen) to counteract
+                        the effects of oestrogen and protect the endometrium. Oestrogen plus progestogen is known as <strong><i> ‘combined HRT’.</i></strong>
+                    </p>
+
+                    <p>
+                        In women who have had a partial hysterectomy (with their cervix intact), some womb lining (endometrium) may still remain,
+                        so progestogen may be required with the oestrogen. Talk to your healthcare professional about which HRT would be most
+                        suitable for your individual needs.
+                    </p>
+                    <h4>To bleed or not to bleed</h4>
+                    <p>
+                        The way in which progestogen is taken along with the oestrogen determines whether or not the HRT will lead to bleeding.
+                        Adding progestogen for 10 to 14 days a month, means that a bleed occurs in the days following this course, similar to that
+
+
+                        of a natural menstrual cycle. This form of <strong><i>'cyclical'</i></strong> or<strong><i> 'sequentiaIHRT’</i></strong> is still used in pen-menopausal women and during the
+                        ﬁrst year or two after the menopause.
+                    </p>
+                    <p>
+                        Forms of hormone replacement that give continuous progestogen with the oestrogen have been developed to avoid bleeding
+                        altogether. This method is called<strong> <i>‘continuous combined HRT’</i></strong> and is thought to reduce the risk of endometrial cancer even
+                        more so than sequential HRT. If you have had at least a year without periods and are thought to be postmenopausal,continuous combined HRT can be used.
+                    </p>
+                   <h3>What are the risks of taking HRT?</h3>
+                    <div class="Text-box">
+                        <h4>Reporting of side effects</h4>
+                        <p>
+                            If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side effects not listed in the package leaflet. You can also report side effects directly via the Yellow Care Scheme
+                            <a href="#">
+                                <u><b>https://yellowcard.mhra.gov.uk</b></u>
+                            </a>
+                            By reporting side effects you can help provide more information on the safety
+                            of these medicines.
+
+                        </p>
+                    </div>
+                    <p>
+                        As With any drug, there are known shortrterm and usually mild side effects from HRT, especially in the first few months
+                        of use
+                    </p>
+                    <p>
+                        These may include breast tenderness, leg cramps, nausea, bloatedness, irritability and depression, These side effects are
+                        related to oestrogen or progestogen, and may be overcome by a change of dosage, ingredients or the route in which the
+                        HRT prescribed
+                    </p>
+                    <p>
+                        irregular bleeding or spotting can also occur during the first 3 months of taking continuous combined HRT, There is no need
+                        to be concerned but do report it to your healthcare professional at your Brmonth review.
+                    </p>
+                    <p>
+                        However, do consult your healthcare professional if you get heavy (rather than light) bleeding, if it lasts for more than 3
+                        months, or if bleeding starts suddenly after some time Without bleeding. irregular bleeding may sometimes be improved by
+                        changing the type or route of HRT
+                    </p>
+                    <h4>Blood clots (venous thromboembolism)</h4>
+                    <p>
+                        HRT tablets (but not patches or gels) are linked With a higher risk of developing a blood clot.
+                    </p>
+                    <p>
+                        if you are already at higher risk of blood clots (for example, you are obese) and you are considering HRT, you may be offered patches or gel rather than tablets,
+                    </p>
+                    <p>
+                        if you have a strong family history of blood clots or if there‘s another reason why you are at high risk of blood clots, you may be referred to a haematologist (a doctor who specialises in blood conditions) before considering HRT.
+                    </p>
+                    <p>
+                       Not all HRT treatments have the same risk of VTEs. Ask your healthcare professional about individual treatment options
+                    </p>
+                    <h4>Heart disease and stroke (cardiovascular disease)</h4>
+                    <p>Studies shoW that:
+                        <ul>
+                            <li>if you start HRT before you're 60 it does not increase your risk of cardiovascular disease</li>
+                            <li>HRT does not affect your risk of dying from cardiovascular disease</li>
+                            <li> HRT tablets (but not patches or gels) slightly raise the risk of stroke However, it is important to remember that the risk of stroke in women under 60 is very low</li>
+                        </ul>
+                    </p>
+                    <p>
+                        if you‘re already at higher risk of cardiovascular disease it may still be possible for you to take HRT but it Will depend on
+                        your individual circumstances. Do ask your healthcare professional for more information.
+
+                    </p>
+                    <h4>Breast cancer</h4>
+                    <p>
+                        Studies shoW that for women around menopausal age:
+                        <ul>
+                            <li>Oestrogen only HRT causes little or no change in the risk of breast cancer</li>
+                            <li>HRT that contains oestrogen and progestogen may increase breast cancer risk This risk may be higher if you take HRT
+                                for longer but falls again when you stop taking HRT</li>
+                      </ul>
+                    </p>
+                    <p>
+                        Not all HRT treatments have the same risk of breast cancer Ask your healthcare professional about treatment options,
+                    </p>
+                    <h4>Type 2 diabetes</h4>
+                    <p>                     
+                        <ul>
+                            <li> HRT does not increase your risk of developing type 2 diabetes</li>
+                            <li>
+                                if you already have type 2 diabetes, HRT is unlikely to have a negative effect on your blood sugar control. When deciding
+                                if HRT is suitable for you, your healthcare professional should take into account any health problems related to your
+                                diabetes and may ask a specialist for advice before offering you HRT
+                            </li>
+                        </ul>
+                    </p>
+                    <h4>Osteoporosis</h4>
+                    <p>
+                        <ul>
+                            <li>
+                                HRT reduces the risk of bone fractures compared to women of a similar age, not taking HRT This benefit only lasts
+                                while you are taking HRT but it may last longer if you have taken HRT for a long time
+                            </li>
+                           
+                        </ul>
+                    </p>  
+                    <h4>Loss of muscle strength</h4>
+                    <p>
+                        <ul>
+                            <li>
+                                Vou may lose muscle strength as you reach menopause. and HRT may improve this. However. it is also important to
+                                carry on With daily activities and exercise, which will help you to stay as strong and fit as possible
+                            </li>
+
+                        </ul>
+                    </p>  
+                    <h4>Empowering your informed choice of treatment</h4>
+                    <p>
+                        The decision to take HRT is a personal one and it depends on how your symptoms are affecting your life (and only you Will
+                        know that‘) it is important to remember that the choice of whether or not to take HRT is in your hands
+                        Vou should understand all the HRTrrelated options available to you and make an informed choice about taking HRT, based on
+                        your individual needs.
+                    </p> 
+                    <div class="Text-box">
+                        <p>
+                            lf HRT is suitable for you and you are interested in taking it, your healthcare professional should discuss the beneﬁts
+                            and risks With you, both in the short term (the next 5 years) and in the future, before you decide to start it
+                        </p>
+                    </div>                           
+                </div>
+            </div>
+        </div>
+
+        <!--Footer-->
+        <footer id="footer-container">
+            <div class="col-md-4 col-xs-4">
+                <a href="#"><img src="Logos/logo_sitefooter.png" class="img-responsive" /></a>
+            </div>
+            <div class="col-md-8 col-xs-7">
+                <div class="corp-links">
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p>For public use</p>
+                    <p>Copyright &copy;Mylan N.V.</p>
+                    <p>All rights Reserved.The content on this site is intended For use with UK members of the public only</p><br />
+
+
+                    <p>Job Code:AHNPS1505080d</p>
+                    <p>Date of Prepration:Auhust2016</p>
+
+                </div>
+
+
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

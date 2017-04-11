@@ -1,0 +1,312 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--CSS referencess-->
+    <link href="CSS/Home.css" rel="stylesheet" />
+    <link href="CSS/Menu.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/menu.js"></script>
+</head>
+<body>
+    <div class="container-fluid padding-bottom-2-per">
+        <div class="row">
+            <!--<div class="col-xs-12">-->
+            <div class="header">
+                <div class="col-md-4 col-sm-3 col-xs-12">
+                    <div class="Lef-Logo">
+                        <a href="#"><img src="Logos/Lef-Logo.png" class="img-responsive" /></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12 col-sm-4">
+                    <div class="input-group">
+                        <input type="text" class="search-query form-control" placeholder="Search" />
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                        </span>
+                    </div>
+                </div>
+                <div class="right-Logo col-md-2 col-sm-3 col-xs-12 ">
+                    <a href="#"><img src="Logos/right-Logo.gif" class="img-responsive" /></a>
+                </div>
+                <div class="col-md-2 col-sm-2">
+                    <img src="Logos/uk_flag.png" class="roundIcon" /><sup id="sup">UK</sup>
+                </div>
+            </div>
+        </div>
+        <!--</div>-->
+        <div>
+            <nav role="navigation" class="navbar navbar-default">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <div id="menuToggle">
+                        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                </div>
+                <!-- Collection of nav links and other content for toggling -->
+                <div id="myNav">
+                    <nav id="navbarCollapse" class="navbar-collapse collapse">
+                        <div class="mainWrap">
+                            <ul class="nav navbar-nav dropdown" id="menu">
+                                <a href="javascript:void(0)" onclick="closeNav" class="close-button pull-right" aria-hidden="true">X</a>
+                                <li><a href="HomePage.html"><span>HOME & ME</span></a></li>
+                                <li>
+                                    <a href="Menopause_Stages.html">MENOPAUSE & ME</a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="Menopause_Stages.html"><span>Stages & symptoms of menopause</span><span class="glyphicon glyphicon-play pull-right" id="right-triangle"></span></a>
+                                            <ul>
+                                                <li><a href="Early_Menopause4.html">Early Menopause</a></li>
+                                                <li><a href="Pre-menopause.html">Pery Menopause</a></li>
+                                                <li><a href="Menopause.html">Menopause</a></li>
+                                                <li><a href="Post-Menopause.html">Post Menopause</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#"><span>Know your body</span><span class="glyphicon glyphicon-play pull-right" id="right-triangle"></span></a>
+                                            <ul>
+                                                <li><a href="Breast-Cancer.html">BREAST CANCER</a></li>
+                                                <li><a href="Contraception.html">CONTRAC EPTION</a></li>
+                                                <li><a href="Low_Mood.html">LOW MOOD/ANXIETY</a></li>
+                                                <li><a href="Heart_Disease.html">HEART DISEASE & STROKE</a></li>
+                                                <li><a href="Osteoporosis.html">OSTEOPOROSIS</a></li>
+                                                <li><a href="Ovarian_Uterine_Cancer.html">OVARIAN/UTERINE CANCER</a></li>
+                                                <li><a href="Skin.html">SKIN</a></li>
+                                                <li><a href="Sleep_Problems.html">SLEEP PROBLEMS</a></li>
+                                                <li><a href="Urinary_Problems.html">URINARY PROBLEMS</a></li>
+                                                <li><a href="Vaginal_dryness.html">VAGINAL DRYNESS</a></li>
+                                                <li><a href="Venous_thromboembolism.html">VENOUS THROMBOEMBOLISM</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="Through_Menopause.html"><span>Am i going to through the menopause?</span></a></li>
+                                        <li><a href="Science-Made-Scence.html"><span>Science made sense</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">TREATMENT & ME</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="HRT_Explained.html"><span>HRT explained</span></a></li>
+                                        <li><a href="Oral_Harmones.html"><span>Meet the oral hormones</span></a></li>
+                                        <li><a href="Coping_Menopause.html"><span>Coping with the menopause</span></a></li>
+                                        <li><a href="Treatment_Tree.html"><span>Treatment tree</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">SUPPORT & ME</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="Patient_Stories.html"><span>Patient stories</span></a></li>
+                                        <li><a href="Coffee_Catch_Ups.html"><span>Coffee catch ups</span></a></li>
+                                        <li><a href="Disscussing_Symptoms.html"><span>Discussing your symptoms</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#"><span>EXPERTS & ME</span></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="Ask_Experts.html"><span>Ask the expert</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#"><span>RESOURCES & ME</span></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="Useful_links.html"><span>Useful Links </span></a></li>
+                                        <li><a href="Email_a_friend.html"><span>Email a friend</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </nav>
+        </div>
+        <!--End of Menu-->
+        <div class="container">
+            <div class="row body-Style">
+                <div class="col-md-12 margin-bottom-20">
+                    <h2>Science made sense</h2>
+                </div>
+
+                <div class="col-md-12">
+                    <p>
+                        Vour science glossary:
+                    </p>
+                    <p>
+                        <strong>Angina</strong>-chest pain that happens when not enough blood is getting to the heart                         
+                    </p>
+                    <p>
+                        <strong>Anxiety</strong>-is a feeling of unease, such as worry or fear that can be mild or severe
+                    </p>
+                    <p>
+                        <strong>Atherosclerosis</strong>-a disease of the arteries characterised by deposits of fatty material
+
+                    </p>
+                    <p>
+                        <strong>Artery</strong>-any of the muscularewalled tubes by which blood is conveyed from the heart to all parts of the body 
+                    </p>
+                    <p>
+                        <strong>Benign</strong>-not cancerous
+                    </p>
+                    <p>
+                        <strong>cardiovascular disease (CVD)</strong>-is a general term that describes a disease of the heart or blood vessels
+                    </p>
+                    <p>
+                        <strong>Cervix</strong>-neck of the womb
+                    </p>
+                    <p>
+                        <strong>chemotherapy</strong>-Cancer treatments that use chemical substances
+
+                    </p>
+                    <p>
+                        <strong>cholesterol</strong>-A fatty substance in the blood
+                    </p>
+                    <p>
+                        <strong>Collagen</strong>-main structural protein in animal bodies
+                    </p>
+                    <p>
+                        <strong>Cognitive behavioural therapy</strong>-a form of therapy that works to solve current problems and change unhelpful thinking and behaviour
+                    </p>
+                    <p>
+                        <strong>Contraindication</strong>- in medicine, a contraindication is a condition or factor that serves as a reason to withhold a certain
+                        medical treatment due to the harm that it would cause the patient
+                    </p>
+                    <p>
+                        <strong>Depression</strong>-is a common mental disorder that causes people to experience depressed mood, loss of interest or pleasure,
+                         feelings of guilt or low selfrworth, disturbed sleep or appetite, low energy, and poor concentration, Depression is different
+                        from feeling down or sad
+                    </p>
+                    <p>
+                        <strong>Endometrium</strong>-the inner lining of the womb
+                    </p>
+                    <p>
+                        <strong>Endometriosis</strong>-is a common condition where tissue that behaves like the lining of the womb (the endometrium) is found
+                            outside the womb
+                    </p>
+                    <p>
+                        <strong>Follicle Stimulating Hormone (FSH)</strong>- one ofthe hormones essential to puberty development and the function of women‘s
+                        ovaries and men‘s testes
+                    </p>
+                    <p>
+                        <strong>Hypertension</strong>-high blood pressure
+                    </p>
+                    <p>
+                        <strong>Hysterectomy </strong>- surgery to remove the uterus
+                    <p>
+                        <strong>Menopause</strong>-when a woman stops having periods and is unable to get pregnant naturally
+                    </p>
+                    <p>
+                        <strong>Menstruation</strong>-a woman‘s period
+                    </p>
+                    <p>
+                        <strong>Oestrogen</strong>-is the main female sex hormone and is responsible for development and regulation ofthe female
+                          reproductive system
+                    </p>
+                    <p>
+                        <strong>Oophorectomy</strong>-surgery to remove the ovaries, usually to treat or prevent ovarian cancer or other ovarian abnormalities
+                    </p>
+                    <p>
+                        <strong>Osteoporosis</strong>-(literally porous bones). it is a condition in which bones become thinner, weaker and can break easily
+                        Ovarian suppression or ablation e stopping the ovaries working temporarily or permanently using hormone treatment
+                    </p>
+                    <p>
+                        <strong>Ovary</strong>-a female reproductive organ in which eggs are produced
+                    </p>
+                    <p>
+                        <strong>Ovulations</strong>-release of egg from the ovaries
+                       </p>
+                    <p>
+                        <strong>Palpitations</strong>-heartbeats that suddenly become more noticeable
+                    </p>
+                    <p>
+                        <strong>Parkinson's Disease</strong>-is a condition in which part of the brain become progressively damaged over many years
+                         Pathological - caused by disease
+                    </p>
+                    <p>
+                        <strong>Post-menopause</strong>-(after the menopause) when a woman hasn't had her period for more than a year
+                    </p>
+                    <p>
+                        <strong>Peri-menopause</strong>-is the transition before the menopause, when a woman's ovaries gradually produce less oestrogen
+                    </p>
+                    <p>
+                        <strong>Premature menopause</strong>-Menopause that occurs at 40 or younger
+                    </p>
+                    <p>
+                        <strong>Progesterone</strong>-is a hormone released by the ovary. It plays important roles in the menstrual cycle and in maintaining the
+                         early stages of pregnancy
+                    </p>
+                    <p>
+                        <strong>Psychological</strong>-related to the mental and emotional state of a person
+                    </p>
+                    <p>
+                        <strong>Stroke</strong>-is a serious and life-threatening medical condition that occurs when the blood supply to part of the brain is cutoff
+                    </p>
+                    <p>
+                        <strong>Testosterone</strong>-a male sex hormone that is important for sexual and reproductive development. Women also produce
+                         testosterone, but at lower levels than men
+                    </p>
+                    <p>
+                        <strong>Thrombosis</strong>-the formation of a blood clot in a blood vessel, blocking the flow of blood
+                    </p>
+                    <p>
+                        <strong>Transdermal</strong>-delivered across the skin
+                    </p>
+                    <p>
+                        <strong>Urinary incontinence</strong>- the unintentional passing of urine
+                    </p>
+                    <p>
+                        <strong>Uterus</strong>-a woman’s womb
+                    </p>
+                    <p>
+                        <strong>Vaginal atrophy</strong>-vaginal dryness
+                    </p>
+                    <p>
+                        <strong>Vasomotor symptoms</strong>-the medical term for symptoms such as hot flushes and night sweats
+                    </p>
+                    <p>
+                        <strong>Venous thromboembolism</strong>-when a blood clot breaks loose and travels in the blood
+                    </p>
+                </div>
+
+                </div>
+            </div>
+   
+        <!--Footer Start-->
+        <footer id="footer-container">
+            <div class="col-md-4 col-xs-4">
+                <a href="#"><img src="Logos/logo_sitefooter.png" class="img-responsive" /></a>
+            </div>
+            <div class="col-md-8 col-xs-7">
+                <div class="corp-links">
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p>For public use</p>
+                    <p>Copyright &copy;Mylan N.V.</p>
+                    <p>All rights Reserved.The content on this site is intended For use with UK members of the public only</p><br />
+
+
+                    <p>Job Code:AHNPS1505080d</p>
+                    <p>Date of Prepration:Auhust2016</p>
+
+                </div>
+
+
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,195 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--CSS referencess-->
+    <link href="CSS/Home.css" rel="stylesheet" />
+    <link href="CSS/Menu.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script>
+$(function() {
+  $('#ChangeToggle').click(function() {
+    $('#navbar-hamburger').toggleClass('hidden');
+    $('#navbar-close').toggleClass('hidden');
+  });
+});
+    </script>
+    <script>
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+    </script>
+</head>
+<body>
+    <div class="container-fluid padding-bottom-2-per">
+        <div class="row">
+            <!--<div class="col-xs-12">-->
+            <div class="header">
+                <div class="col-md-4 col-sm-3 col-xs-12">
+                    <div class="Lef-Logo">
+                        <a href="#"><img src="Logos/Lef-Logo.png" class="img-responsive" /></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12 col-sm-4">
+                    <div class="input-group">
+                        <input type="text" class="search-query form-control" placeholder="Search" />
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                        </span>
+                    </div>
+                </div>
+                <div class="right-Logo col-md-2 col-sm-3 col-xs-12 ">
+                    <a href="#"><img src="Logos/right-Logo.gif" class="img-responsive" /></a>
+                </div>
+                <div class="col-md-2 col-sm-2">
+                    <img src="Logos/uk_flag.png" class="roundIcon" /><sup id="sup">UK</sup>
+                </div>
+            </div>
+        </div>
+        <!--</div>-->
+        <div>
+            <nav role="navigation" class="navbar navbar-default">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <div id="menuToggle">
+                        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                </div>
+                <!-- Collection of nav links and other content for toggling -->
+                <div id="myNav">
+                    <nav id="navbarCollapse" class="navbar-collapse collapse">
+                        <div class="mainWrap">
+                            <ul class="nav navbar-nav dropdown" id="menu">
+                                <a href="javascript:void(0)" onclick="closeNav" class="close-button pull-right" aria-hidden="true">X</a>
+                                <li><a href="HomePage.html"><span>HOME & ME</span></a></li>
+                                <li>
+                                    <a href="Menopause_Stages.html">MENOPAUSE & ME</a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="Menopause_Stages.html"><span>Stages & symptoms of menopause</span><span class="glyphicon glyphicon-play pull-right" id="right-triangle"></span></a>
+                                            <ul>
+                                                <li><a href="Early_Menopause4.html">Early Menopause</a></li>
+                                                <li><a href="Pre-menopause.html">Pery Menopause</a></li>
+                                                <li><a href="Menopause.html">Menopause</a></li>
+                                                <li><a href="Post-Menopause.html">Post Menopause</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#"><span>Know your body</span><span class="glyphicon glyphicon-play pull-right" id="right-triangle"></span></a>
+                                            <ul>
+                                                <li><a href="Breast-Cancer.html">BREAST CANCER</a></li>
+                                                <li><a href="Contraception.html">CONTRAC EPTION</a></li>
+                                                <li><a href="Low_Mood.html">LOW MOOD/ANXIETY</a></li>
+                                                <li><a href="Heart_Disease.html">HEART DISEASE & STROKE</a></li>
+                                                <li><a href="Osteoporosis.html">OSTEOPOROSIS</a></li>
+                                                <li><a href="Ovarian_Uterine_Cancer.html">OVARIAN/UTERINE CANCER</a></li>
+                                                <li><a href="Skin.html">SKIN</a></li>
+                                                <li><a href="Sleep_Problems.html">SLEEP PROBLEMS</a></li>
+                                                <li><a href="Urinary_Problems.html">URINARY PROBLEMS</a></li>
+                                                <li><a href="Vaginal_dryness.html">VAGINAL DRYNESS</a></li>
+                                                <li><a href="Venous_thromboembolism.html">VENOUS THROMBOEMBOLISM</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="Through_Menopause.html"><span>Am i going to through the menopause?</span></a></li>
+                                        <li><a href="Science-Made-Scence.html"><span>Science made sense</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">TREATMENT & ME</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="HRT_Explained.html"><span>HRT explained</span></a></li>
+                                        <li><a href="Oral_Harmones.html"><span>Meet the oral hormones</span></a></li>
+                                        <li><a href="Coping_Menopause.html"><span>Coping with the menopause</span></a></li>
+                                        <li><a href="Treatment_Tree.html"><span>Treatment tree</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">SUPPORT & ME</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="Patient_Stories.html"><span>Patient stories</span></a></li>
+                                        <li><a href="Coffee_Catch_Ups.html"><span>Coffee catch ups</span></a></li>
+                                        <li><a href="Disscussing_Symptoms.html"><span>Discussing your symptoms</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#"><span>EXPERTS & ME</span></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="Ask_Experts.html"><span>Ask the expert</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#"><span>RESOURCES & ME</span></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="Useful_links.html"><span>Useful Links </span></a></li>
+                                        <li><a href="Email_a_friend.html"><span>Email a friend</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </nav>
+        </div>
+
+        <!--End of Menu-->
+        <div class="container">
+            <div class="row body-Style padding-bottom-2-per">
+                <div class="col-md-12 ">
+                    <h2>Ask the Experts</h2>
+
+                    <div id="video">
+
+                        <iframe src="https://www.youtube.com/embed/QiL7HMFeiM0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+        <!--Footer Start-->
+
+        <footer id="footer-container">
+            <div class="col-md-4 col-xs-4">
+                <a href="#"><img src="Logos/logo_sitefooter.png" class="img-responsive" /></a>
+            </div>
+            <div class="col-md-8 col-xs-7">
+                <div class="corp-links">
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p>For public use</p>
+                    <p>Copyright &copy;Mylan N.V.</p>
+                    <p>All rights Reserved.The content on this site is intended For use with UK members of the public only</p><br />
+
+
+                    <p>Job Code:AHNPS1505080d</p>
+                    <p>Date of Prepration:Auhust2016</p>
+
+                </div>
+
+
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>

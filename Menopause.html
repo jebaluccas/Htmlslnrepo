@@ -1,0 +1,273 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--CSS referencess-->
+    <link href="CSS/Home.css" rel="stylesheet" />
+    <link href="CSS/Menu.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/menu.js"></script>
+</head>
+<body>
+    <div class="container-fluid padding-bottom-2-per">
+        <div class="row">
+            <!--<div class="col-xs-12">-->
+            <div class="row">
+                <!--<div class="col-xs-12">-->
+                <div class="header">
+                    <div class="col-md-4 col-sm-3 col-xs-12">
+                        <div class="Lef-Logo">
+                            <a href="#"><img src="Logos/Lef-Logo.png" class="img-responsive" /></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12 col-sm-4">
+                        <div class="input-group">
+                            <input type="text" class="search-query form-control" placeholder="Search" />
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button">
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="right-Logo col-md-2 col-sm-3 col-xs-12 ">
+                        <a href="#"><img src="Logos/right-Logo.gif" class="img-responsive" /></a>
+                    </div>
+                    <div class="col-md-2 col-sm-2">
+                        <img src="Logos/uk_flag.png" class="roundIcon" /><sup id="sup">UK</sup>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--</div>-->
+        <div>
+            <nav role="navigation" class="navbar navbar-default">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <div id="menuToggle">
+                        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                </div>
+                <!-- Collection of nav links and other content for toggling -->
+                <div id="myNav">
+                    <nav id="navbarCollapse" class="navbar-collapse collapse">
+                        <div class="mainWrap">
+                            <ul class="nav navbar-nav dropdown" id="menu">
+                                <a href="javascript:void(0)" onclick="closeNav" class="close-button pull-right" aria-hidden="true">X</a>
+                                <li><a href="HomePage.html"><span>HOME & ME</span></a></li>
+                                <li>
+                                    <a href="Menopause_Stages.html">MENOPAUSE & ME</a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="Menopause_Stages.html"><span>Stages & symptoms of menopause</span><span class="glyphicon glyphicon-play pull-right" id="right-triangle"></span></a>
+                                            <ul>
+                                                <li><a href="Early_Menopause4.html">Early Menopause</a></li>
+                                                <li><a href="Pre-menopause.html">Pery Menopause</a></li>
+                                                <li><a href="Menopause.html">Menopause</a></li>
+                                                <li><a href="Post-Menopause.html">Post Menopause</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#"><span>Know your body</span><span class="glyphicon glyphicon-play pull-right" id="right-triangle"></span></a>
+                                            <ul>
+                                                <li><a href="Breast-Cancer.html">BREAST CANCER</a></li>
+                                                <li><a href="Contraception.html">CONTRAC EPTION</a></li>
+                                                <li><a href="Low_Mood.html">LOW MOOD/ANXIETY</a></li>
+                                                <li><a href="Heart_Disease.html">HEART DISEASE & STROKE</a></li>
+                                                <li><a href="Osteoporosis.html">OSTEOPOROSIS</a></li>
+                                                <li><a href="Ovarian_Uterine_Cancer.html">OVARIAN/UTERINE CANCER</a></li>
+                                                <li><a href="Skin.html">SKIN</a></li>
+                                                <li><a href="Sleep_Problems.html">SLEEP PROBLEMS</a></li>
+                                                <li><a href="Urinary_Problems.html">URINARY PROBLEMS</a></li>
+                                                <li><a href="Vaginal_dryness.html">VAGINAL DRYNESS</a></li>
+                                                <li><a href="Venous_thromboembolism.html">VENOUS THROMBOEMBOLISM</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="Through_Menopause.html"><span>Am i going to through the menopause?</span></a></li>
+                                        <li><a href="Science-Made-Scence.html"><span>Science made sense</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">TREATMENT & ME</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="HRT_Explained.html"><span>HRT explained</span></a></li>
+                                        <li><a href="Oral_Harmones.html"><span>Meet the oral hormones</span></a></li>
+                                        <li><a href="Coping_Menopause.html"><span>Coping with the menopause</span></a></li>
+                                        <li><a href="Treatment_Tree.html"><span>Treatment tree</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">SUPPORT & ME</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="Patient_Stories.html"><span>Patient stories</span></a></li>
+                                        <li><a href="Coffee_Catch_Ups.html"><span>Coffee catch ups</span></a></li>
+                                        <li><a href="Disscussing_Symptoms.html"><span>Discussing your symptoms</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#"><span>EXPERTS & ME</span></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="Ask_Experts.html"><span>Ask the expert</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#"><span>RESOURCES & ME</span></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="Useful_links.html"><span>Useful Links </span></a></li>
+                                        <li><a href="Email_a_friend.html"><span>Email a friend</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </nav>
+        </div>
+        <!--End of Menu-->
+        <div class="container">
+            <div class="row body-Style">
+                <div class="col-md-12 margin-bottom-20">
+                    <h2>Menopause</h2>
+                </div>
+                
+                <div class="col-md-6">
+                    <p>
+                        The menopause is when a woman stops having her period
+                        and her ovaries lose their reproductive function
+                        She is no longer able to get pregnant naturally.
+                    </p>
+                    <p>
+                        Call it what you will i ‘the change', ’that time in her life' i
+                        it is something that all women go through. Menopause
+                        usually occurs between the ages of 45755 in the UK,
+                        the average age is 51 in a small number of cases,
+                        some women become menopausal in their early 40s or
+                        even younger,<a href="#"><b>See early-menopause</b></a>
+                    </p>
+                    
+                </div>
+                <div class="col-md-6">
+
+                    <img src="Images/Menopause.png" class="img-responsive" />
+                </div>
+                <div class="col-md-12 body-Style Unorderd">
+                    <h4>What are the signs and symptoms of the menopause?</h4>
+                    <p>
+                        For all women the menopause is an individual experience For some women, the loss of reproductive ability may be
+                        deeply upsetting.
+                    </p>
+                    <p>
+                        The decrease of oestrogen is often the cause of a variety of symptoms, which may be distressing and may require medical
+                        attention. Oestrogen deficiency can affect many parts of the body (causing physical changes) and the brain (causing
+                        changes in emotional wellrbeing), and the skin (causing changes in its elasticity and thickness),
+                    </p>
+                    <p>
+                        8 out of 10 women experience some menopausal symptoms. For about half of women, menopause symptoms Will typically
+                        last for about four years after their last period.
+                    </p>
+                    <p>
+                        For l0% of women, symptoms can continue for up to 12 years The medical term for these symptoms is
+                        vasomotor symptoms.
+                    </p>
+                    <p>
+                        Symptoms may include:
+                        <ul>
+                            <li>Hot flushes and night sweats are the most common symptoms of the menopause</li>
+                            <li>Sleepiessness</li>
+                            <li>Vaginal dryness</li>
+                            <li>irritated skin</li>
+                            <li>More frequent urinary incontinence</li>
+                            <li>Urinary tract infections</li>
+                            <li>Low mood</li>
+                            <li>Reduced interest in sex</li>
+                            <li>Problems With memory and concentration</li>
+                            <li>Mood changes</li>
+                            <li>Palpitations</li>
+                            <li>Joint stiffness, aches and pains</li>
+                            <li>Reduced muscle mass</li>
+                        </ul>
+                    </p>
+                    <p>
+                        Every woman is an individual and symptoms can vary hugely in duration and severity.
+                    </p>
+                    <p>
+                        Once the ovaries have ceased their production of oestrogen, other changes may take place, which can have an effect on
+                        long-term health. This includes changes that affect the strength and density of bones increasing the risk of osteoporosis
+                        (bone-thinning disease).
+                    </p>
+                    <h4>Have I definitely gone through the menopause?</h4>
+                    <p>
+                        Conﬁrming the menopause has actually taken place is not easy. Most healthcare professionals will evaluate a woman's
+                        menopausal status according to her symptoms. pattern of periods and medical records.
+                    </p>
+                    <p>
+                        Some women may have had a hysterectomy, and at the same time, surgical removal of the ovaries for various medical
+                        reasons. Removal of the ovaries (oophorectomy) creates an immediate menopause. A woman who has either has a
+                        hysterectomy or both ovaries removed often faces more intense menopausal symptoms than a woman who reaches the
+                        menopause naturally, as this abruptly cuts off hormone production. Discuss how to manage your symptoms with your
+                        healthcare professional before your operation.
+                    </p>
+
+                    <h4>What treatments are recommended?</h4>
+                    <p>
+                        Hormone replacement therapy (HRT) is the most effective and widely used treatment for menopausal symptoms. As the
+                        name suggests, it's simply a way of replacing the hormone oestrogen that is lost during the menopause.
+                    </p>
+                    <p>
+                        HRT aims to relieve the symptoms caused by oestrogen deficiency. Ask your healthcare professional about the benefits and
+                        risks of HRT.
+                    </p>
+                    <p>
+                        You should also establish a healthy lifestyle, which includes activities such as regular weight-bearing exercise, a healthy
+                        diet, and stopping smoking.
+                    </p>
+                    <p>
+                        Attend your regular mammography and blood tests, which will screen for diabetes and high cholesterol. You may also want
+                        to consider a bone density test, which is recommended for women under 65 who have one or more risk fact0rs for
+                        osteopOrosis. Risk factors include a close relative with osteopOrosis. smoking and a slender build.
+                    </p>
+                    <p>Your health is your responsibility and you are in charge of your own wellbeing!</p>
+                    <p>If you feel you are struggling with any aspect of your menopause journey, ask your GP for advice and help. You are not</p>
+                </div>
+            </div>
+        </div>
+        <!--Footer Start-->
+        <footer id="footer-container">
+            <div class="col-md-4 col-xs-4">
+                <a href="#"><img src="Logos/logo_sitefooter.png" class="img-responsive" /></a>
+            </div>
+            <div class="col-md-8 col-xs-7">
+                <div class="corp-links">
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p>For public use</p>
+                    <p>Copyright &copy;Mylan N.V.</p>
+                    <p>All rights Reserved.The content on this site is intended For use with UK members of the public only</p><br />
+
+
+                    <p>Job Code:AHNPS1505080d</p>
+                    <p>Date of Prepration:Auhust2016</p>
+
+                </div>
+
+
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

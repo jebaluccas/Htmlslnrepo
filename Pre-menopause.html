@@ -1,0 +1,256 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+     <meta name="apple-mobile-web-app-capable" content="yes" />
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <!--CSS referencess-->
+   <link href="CSS/Home.css" rel="stylesheet" />
+    <link href="CSS/Menu.css" rel="stylesheet" />
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link href="Content/bootstrap.css" rel="stylesheet" />
+   <script src="scripts/bootstrap.min.js"></script>
+   <script src="scripts/menu.js"></script>
+</head>
+<body>
+    <div class="container-fluid padding-bottom-2-per">
+        <div class="row">
+            <!--<div class="col-xs-12">-->
+            <div class="header">
+                <div class="col-md-4 col-sm-3 col-xs-12">
+                    <div class="Lef-Logo">
+                        <a href="#"><img src="Logos/Lef-Logo.png" class="img-responsive" /></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12 col-sm-4">
+                    <div class="input-group">
+                        <input type="text" class="search-query form-control" placeholder="Search" />
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                        </span>
+                    </div>
+                </div>
+                <div class="right-Logo col-md-2 col-sm-3 col-xs-12 ">
+                    <a href="#"><img src="Logos/right-Logo.gif" class="img-responsive" /></a>
+                </div>
+                <div class="col-md-2 col-sm-2">
+                    <img src="Logos/uk_flag.png" class="roundIcon" /><sup id="sup">UK</sup>
+                </div>
+            </div>
+        </div>
+        <!--</div>-->
+        <div>
+            <nav role="navigation" class="navbar navbar-default">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <div id="menuToggle">
+                        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                </div>
+                <!-- Collection of nav links and other content for toggling -->
+                <div id="myNav">
+                    <nav id="navbarCollapse" class="navbar-collapse collapse">
+                        <div class="mainWrap">
+                            <ul class="nav navbar-nav dropdown" id="menu">
+                                <a href="javascript:void(0)" onclick="closeNav" class="close-button pull-right" aria-hidden="true">X</a>
+                                <li><a href="HomePage.html"><span>HOME & ME</span></a></li>
+                                <li>
+                                    <a href="Menopause_Stages.html">MENOPAUSE & ME</a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="Menopause_Stages.html"><span>Stages & symptoms of menopause</span><span class="glyphicon glyphicon-play pull-right" id="right-triangle"></span></a>
+                                            <ul>
+                                                <li><a href="Early_Menopause4.html">Early Menopause</a></li>
+                                                <li><a href="Pre-menopause.html">Pery Menopause</a></li>
+                                                <li><a href="Menopause.html">Menopause</a></li>
+                                                <li><a href="Post-Menopause.html">Post Menopause</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#"><span>Know your body</span><span class="glyphicon glyphicon-play pull-right" id="right-triangle"></span></a>
+                                            <ul>
+                                                <li><a href="Breast-Cancer.html">BREAST CANCER</a></li>
+                                                <li><a href="Contraception.html">CONTRAC EPTION</a></li>
+                                                <li><a href="Low_Mood.html">LOW MOOD/ANXIETY</a></li>
+                                                <li><a href="Heart_Disease.html">HEART DISEASE & STROKE</a></li>
+                                                <li><a href="Osteoporosis.html">OSTEOPOROSIS</a></li>
+                                                <li><a href="Ovarian_Uterine_Cancer.html">OVARIAN/UTERINE CANCER</a></li>
+                                                <li><a href="Skin.html">SKIN</a></li>
+                                                <li><a href="Sleep_Problems.html">SLEEP PROBLEMS</a></li>
+                                                <li><a href="Urinary_Problems.html">URINARY PROBLEMS</a></li>
+                                                <li><a href="Vaginal_dryness.html">VAGINAL DRYNESS</a></li>
+                                                <li><a href="Venous_thromboembolism.html">VENOUS THROMBOEMBOLISM</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="Through_Menopause.html"><span>Am i going to through the menopause?</span></a></li>
+                                        <li><a href="Science-Made-Scence.html"><span>Science made sense</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">TREATMENT & ME</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="HRT_Explained.html"><span>HRT explained</span></a></li>
+                                        <li><a href="Oral_Harmones.html"><span>Meet the oral hormones</span></a></li>
+                                        <li><a href="Coping_Menopause.html"><span>Coping with the menopause</span></a></li>
+                                        <li><a href="Treatment_Tree.html"><span>Treatment tree</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">SUPPORT & ME</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="Patient_Stories.html"><span>Patient stories</span></a></li>
+                                        <li><a href="Coffee_Catch_Ups.html"><span>Coffee catch ups</span></a></li>
+                                        <li><a href="Disscussing_Symptoms.html"><span>Discussing your symptoms</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#"><span>EXPERTS & ME</span></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="Ask_Experts.html"><span>Ask the expert</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#"><span>RESOURCES & ME</span></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="Useful_links.html"><span>Useful Links </span></a></li>
+                                        <li><a href="Email_a_friend.html"><span>Email a friend</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </nav>
+        </div>
+        <!--End of Menu-->
+        <div class="container">
+            <div class="row body-Style">
+                <div class="col-md-12 margin-bottom-20">
+                    <h2>Peri-menopause</h2>
+                </div>
+                
+                <div class="col-md-6">
+                    <p>
+                        The peri-menopause is the start of the transition towards
+                        menopause (when a woman's ovaries stop working).
+                        Although each woman' s experience is different, during
+                        peri-menopause, most women will find it more difficult
+
+                        to become pregnant and may get irregular or heavy periods.
+                    </p>
+                    <p>
+                        The peri-menopause begins some years before the
+                        menopause itself as the ovaries gradually begin to produce
+                        less of the hormone oestrogen. It usually starts a few years
+                        before a woman's last period, when she' s in her 40s, but
+
+                        it can sometimes start earlier.
+                    </p>
+                    <p>
+                        The peri-menopause lasts up until the menopause. How long
+                        the peri-menopause lasts depend on the individual; this can
+                        be anything from months to years. The peri-menopause ends
+                        when a woman has gone 12 months without having a period and so has officially reached the menopause.
+                    </p>
+                    
+                </div>
+                <div class="col-md-6">
+
+                        <img src="Images/Pre-Menopause.png" class="img-responsive" />
+                    </div>
+                <div class="col-md-12 body-Style Unorderd">
+                    <h4>What are the signs and symptoms of the peri-menopause?</h4>
+                    <p>
+                        Possible changes that may occur during peri-menopause include:
+                        <ul >
+                            <li>
+                                Hot flushes
+                            </li>
+                            <li>
+                                Night sweats
+                            </li>
+                            <li>
+                                Changes in the menstrual cycle (shorter time between periods and heavier bleeding)
+                            </li>
+                            <li>Vaginal dryness</li>
+                            <li>Unpredictable breast tenderness</li>
+
+                            <li>Skin changes</li>
+                            <li>Poor sleep</li>
+                            <li>Mood swings</li>
+                            <li>Decreased sexual desire</li>
+                        </ul>
+                    </p>
+                    <h4>What happens to my sex life during the peri-menopause?</h4>
+                    <p>
+                        Most women do not experience major changes in their sex lives during peri-menopause. Some women may notice more
+                        vaginal dryness. This is the body's response to a decreased level of oestrogen. Your healthcare professional can discuss
+                        options to deal with vaginal dryness, such as over-the-counter lubricants.
+                    </p>
+                    <p>
+                        If you are concerned, try talking to your partner or family and friends about what you are going through and explain that this
+                        is a natural transition towards the menopause.
+                    </p>
+                    <h4>Is birth control required during peri-menopause?</h4>
+                    <p>It is still possible to become pregnant during peri-menopause. The medical risks associated with pregnancy increase a lot
+                      during this time in a woman's life. To avoid unintended pregnancy, contraception would still be required.</p>
+                   <p>
+                       No one method is right for everyone, so talk to your healthcare professional to find out which method is best for you.
+                    </p>
+                    
+                    <h4>What treatments are recommended?</h4>
+                    <p>
+                        Hormone replacement therapy (HRT) is an option, particularly for women in the early stages of menopause. Ask your
+                        healthcare professional about the beneﬁts and risks of HRT and discuss if this is an appropriate treatment option for you.
+                    </p>
+                    <p>You should also establish a healthy lifestyle, which includes activities such as regular weight-bearing exercise, a healthy
+                       diet, and stopping smoking.</p>
+                    <p>Attend your regular mammography and blood tests, which will screen for diabetes and high cholesterol. You may also want
+                       to consider a bone density test, which is recommended for women under 65 who have one or more risk fact0rs for
+                       osteopOrosis. Risk factors include a close relative with osteopomsis. smoking and a slender build.
+                    </p>
+                    <p>
+                        Remember, every woman is an individual. For more information about the pen-menopause or help managing your symptoms,
+                        please ask your healthcare professional.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--Footer Start-->
+        <footer id="footer-container">
+            <div class="col-md-4 col-xs-4">
+                <a href="#"><img src="Logos/logo_sitefooter.png" class="img-responsive" /></a>
+            </div>
+            <div class="col-md-8 col-xs-7">
+                <div class="corp-links">
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p>For public use</p>
+                    <p>Copyright &copy;Mylan N.V.</p>
+                    <p>All rights Reserved.The content on this site is intended For use with UK members of the public only</p><br />
+
+
+                    <p>Job Code:AHNPS1505080d</p>
+                    <p>Date of Prepration:Auhust2016</p>
+
+                </div>
+
+
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

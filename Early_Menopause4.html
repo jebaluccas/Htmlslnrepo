@@ -1,0 +1,262 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--CSS referencess-->
+    <link href="CSS/Home.css" rel="stylesheet" />
+    <link href="CSS/Menu.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/menu.js"></script>
+</head>
+<body>
+    <div class="container-fluid padding-bottom-2-per">
+        <div class="row">
+            <!--<div class="col-xs-12">-->
+            <div class="header">
+                <div class="col-md-4 col-sm-3 col-xs-12">
+                    <div class="Lef-Logo">
+                        <a href="#"><img src="Logos/Lef-Logo.png" class="img-responsive" /></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12 col-sm-4">
+                    <div class="input-group">
+                        <input type="text" class="search-query form-control" placeholder="Search" />
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                        </span>
+                    </div>
+                </div>
+                <div class="right-Logo col-md-2 col-sm-3 col-xs-12 ">
+                    <a href="#"><img src="Logos/right-Logo.gif" class="img-responsive" /></a>
+                </div>
+                <div class="col-md-2 col-sm-2">
+                    <img src="Logos/uk_flag.png" class="roundIcon" /><sup id="sup">UK</sup>
+                </div>
+            </div>
+        </div>
+        <!--</div>-->
+        <div>
+            <nav role="navigation" class="navbar navbar-default">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <div id="menuToggle">
+                        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                </div>
+                <!-- Collection of nav links and other content for toggling -->
+                <div id="myNav">
+                    <nav id="navbarCollapse" class="navbar-collapse collapse">
+                        <div class="mainWrap">
+                            <ul class="nav navbar-nav dropdown" id="menu">
+                                <a href="javascript:void(0)" onclick="closeNav" class="close-button pull-right" aria-hidden="true">X</a>
+                                <li><a href="HomePage.html"><span>HOME & ME</span></a></li>
+                                <li>
+                                    <a href="Menopause_Stages.html">MENOPAUSE & ME</a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="Menopause_Stages.html"><span>Stages & symptoms of menopause</span><span class="glyphicon glyphicon-play pull-right" id="right-triangle"></span></a>
+                                            <ul>
+                                                <li><a href="Early_Menopause4.html">Early Menopause</a></li>
+                                                <li><a href="Pre-menopause.html">Pery Menopause</a></li>
+                                                <li><a href="Menopause.html">Menopause</a></li>
+                                                <li><a href="Post-Menopause.html">Post Menopause</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#"><span>Know your body</span><span class="glyphicon glyphicon-play pull-right" id="right-triangle"></span></a>
+                                            <ul>
+                                                <li><a href="Breast-Cancer.html">BREAST CANCER</a></li>
+                                                <li><a href="Contraception.html">CONTRAC EPTION</a></li>
+                                                <li><a href="Low_Mood.html">LOW MOOD/ANXIETY</a></li>
+                                                <li><a href="Heart_Disease.html">HEART DISEASE & STROKE</a></li>
+                                                <li><a href="Osteoporosis.html">OSTEOPOROSIS</a></li>
+                                                <li><a href="Ovarian_Uterine_Cancer.html">OVARIAN/UTERINE CANCER</a></li>
+                                                <li><a href="Skin.html">SKIN</a></li>
+                                                <li><a href="Sleep_Problems.html">SLEEP PROBLEMS</a></li>
+                                                <li><a href="Urinary_Problems.html">URINARY PROBLEMS</a></li>
+                                                <li><a href="Vaginal_dryness.html">VAGINAL DRYNESS</a></li>
+                                                <li><a href="Venous_thromboembolism.html">VENOUS THROMBOEMBOLISM</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="Through_Menopause.html"><span>Am i going to through the menopause?</span></a></li>
+                                        <li><a href="Science-Made-Scence.html"><span>Science made sense</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">TREATMENT & ME</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="HRT_Explained.html"><span>HRT explained</span></a></li>
+                                        <li><a href="Oral_Harmones.html"><span>Meet the oral hormones</span></a></li>
+                                        <li><a href="Coping_Menopause.html"><span>Coping with the menopause</span></a></li>
+                                        <li><a href="Treatment_Tree.html"><span>Treatment tree</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">SUPPORT & ME</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="Patient_Stories.html"><span>Patient stories</span></a></li>
+                                        <li><a href="Coffee_Catch_Ups.html"><span>Coffee catch ups</span></a></li>
+                                        <li><a href="Disscussing_Symptoms.html"><span>Discussing your symptoms</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#"><span>EXPERTS & ME</span></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="Ask_Experts.html"><span>Ask the expert</span></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#"><span>RESOURCES & ME</span></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="Useful_links.html"><span>Useful Links </span></a></li>
+                                        <li><a href="Email_a_friend.html"><span>Email a friend</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </nav>
+        </div>
+
+        <!--End of Menu-->
+        <div class="container">
+            <div class="row body-Style">
+                <div class="col-md-12 margin-bottom-20">
+                    <h2>Early Menopause and premature menopause</h2>
+                </div>
+               
+                <div class="col-md-6">
+                    <p>
+                        Menopause is when a woman stops having her periods.
+                        Menopause usually happens between the ages of 45 and 55(the average age being 51).
+                        For a small number of women,menopause occurs earlier.
+                    </p>
+                    <h4>What's in a number?</h4>
+                    <p>
+                        if menopause happens before 40, it’s called premature
+                        menopause (or premature ovarian insufficiency). These
+                        terms may be used interchangeably, which can be confusing.
+                        To clarify -<b><i>early menopause</i></b> is used to describe menopause
+                        before the age of 45 and premature menopause, when it
+                        occurs below the age of 40 However, premature
+                        menopause can occur at any age - including in children
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="Images/Early-Menopause.png" class="img-responsive" />
+                </div>
+                <div class="col-md-12 body-Style Unorderd ">
+                    <h4>What is early/premature menopause?</h4>
+                    <p>
+                        To put it simply, ovarieslust stop working, years or even decades before they should, it can present as an absence of
+                        periods The ovaries produce hormones called oestrogen and progesterone in response to other hormones (follicle
+                        stimulating hormone (FSH), and luteinising hormone (LH)) All these hormones interact as part of the monthly menstrual
+                        cycle, which results in the development of an egg in one of the ovaries, In premature menopause, the ovaries stop producing
+                        normal levels of oestrogen and eggs may not develop and mature.
+                    </p>
+                    <p>
+                        The causes of premature menopause are described as primary or secondary in the great majority of cases it’s not possible
+                        to explain why premature menopause happens but some reasons may include:
+                    </p>
+                    <p >
+                        <ul class="Hypen">
+                            <li>
+                                Chromosome abnormalities, such as women With Down's syndrome
+                            </li>
+                            <li>
+                                Enzyme deﬁciencies, where enzymes in the body affect the ovaries by damaging the eggs and preventing the
+                                production of oestrogen
+                            </li>
+                            <li>
+                                Autoimmune diseases, where the body's natural defence mechanisms start producing antibodies that destroy its
+                                own tissues
+                            </li>
+                        </ul>
+                    </p>
+                    <p>
+                        Secondary causes can be due to cancer treatments such as radiotherapy or chemotherapy The risk Will depend on the type
+                        of treatment and the patient‘s age Other secondary causes include surgical menopause (an operation to remove both
+                        ovaries) or having a hysterectomy
+                    </p>
+                    <h4>What are the signs and symptoms of premature/early menopause?</h4>
+                    <p>Periods may become infrequent or stop There may be other symptoms such as:</p>
+                    <ul>
+                        <li>Hot flushes</li>
+                        <li>Night sweats</li>
+                        <li>Palpitations</li>
+                        <li>Decreased energy levels</li>
+                        <li>Lack of concentration</li>
+                        <li>Poor sleep</li>
+                        <li>Lack of interest in sex</li>
+                        <li>Vaginal dryness</li>
+                        <li>Painful intercourse</li>
+                    </ul>
+                    <h4>What are the risks associated with premature/early menopause?</h4>
+                    <p>Women, who have an early or premature menopause, have an increased risk of osteoporosis, cardiovascular disease,
+                       dementia, cognitive decline and Parkinson‘s, and all cause mortality due to reduced oestrogen levels. lnfertility is also an
+                       issue. Women who experience menopause before they’ve been able to have children may find this emotionally very hard to
+                       deal With.
+                    </p>
+                    <h4>What treatments are recommended?</h4>
+                    <p>Women With early/premature menopause are usually advrsed to have hormone replacement therapy [H RT) until the average
+                       age of the natural menopause (Wthh rs about 51)</p>
+                    <p>There rs no evidence to suggest that HRT increases the risk of breast cancer and cardiovascular disease over and above
+                       that of women With a normally timed menopause.
+                    </p>
+                    <p>
+                        The diagnosis of premature menopause can be a shock and upsetting, espemally rn women who haven't yet had children.
+                        Counselling or support may be helpful if you have or are experrencmg premature menopause.
+                    </p>
+                    <div class="Text-box">
+                            <p>The Daisy Network rs a large support group for women suffering with Premature Ovarian Insufﬁciency [POI].</p>
+                            <a href="#">
+                                    <u><b>Find out more at The Daisy Network</b></u>
+                            </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Footer-->
+        <footer id="footer-container">
+            <div class="col-md-4 col-xs-4">
+                <a href="#"><img src="Logos/logo_sitefooter.png" class="img-responsive" /></a>
+            </div>
+            <div class="col-md-8 col-xs-7">
+                <div class="corp-links">
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p>For public use</p>
+                    <p>Copyright &copy;Mylan N.V.</p>
+                    <p>All rights Reserved.The content on this site is intended For use with UK members of the public only</p><br />
+
+
+                    <p>Job Code:AHNPS1505080d</p>
+                    <p>Date of Prepration:Auhust2016</p>
+
+                </div>
+
+
+            </div>
+        </footer>
+        </div>
+</body>
+</html>
